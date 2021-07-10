@@ -52,3 +52,12 @@ FROM university.student_courses
   ON  university.student_courses.course_id=university.courses.id
   GROUP BY  courses.title
   having count(*)>=5;
+  
+    SELECT university.students.registration_number,university.students.name,university.student_courses.grade,
+  university.courses.course_number,university.courses.title
+FROM university.students 
+ JOIN university.student_courses
+  ON  university.student_courses.student_id=university.students.id
+  JOIN university.courses
+  ON university.courses.id = university.student_courses.course_id
+  where grade>=90;
