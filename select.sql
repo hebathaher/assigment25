@@ -44,3 +44,11 @@ FROM university.student_courses
  JOIN university.courses
   ON  university.student_courses.course_id=university.courses.id
   GROUP BY  student_courses.student_id;
+
+
+SELECT courses.title
+FROM university.student_courses 
+ JOIN university.courses
+  ON  university.student_courses.course_id=university.courses.id
+  GROUP BY  courses.title
+  having count(*)>=5;
