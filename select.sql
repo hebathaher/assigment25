@@ -31,3 +31,9 @@ INNER JOIN university.courses ON  university.student_courses.course_id=universit
 SELECT  university.teachers.employment_number,university.courses.course_number
 FROM university.teachers
 INNER JOIN university.courses ON   university.teachers.employment_number=university.courses.teacher_id;
+
+SELECT countries.name,count(*)
+FROM university.countries 
+ JOIN university.students
+  ON  university.countries.id=university.students.country_id
+  GROUP BY countries.name;
