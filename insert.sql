@@ -102,3 +102,6 @@ VALUES(3,2,2,1,95);
   INSERT INTO university.student_courses(student_id,course_id,year,semester,grade)
 VALUES(5,2,2,1,50);
 
+    INSERT INTO university.student_courses(student_id,course_id,year,semester,grade)
+VALUES(5,3,2,1,50);
+
