@@ -57,23 +57,23 @@ VALUES('2020-50-55','employee_teacher 5');
 
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1101','HTML Course','web course',3,101);
+VALUES('1101','HTML Course','web course',3,1);
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1102','CSS Course','web course',3,101);
+VALUES('1102','CSS Course','web course',3,4);
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1103','JavaScript Course','web course',3,103);
+VALUES('1103','JavaScript Course','web course',3,2);
 
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1104',' data computer 1 Course','web course',3,102);
+VALUES('1104',' data computer 1 Course','web course',3,2);
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1105','sturucture computer Course','web course',3,102);
+VALUES('1105','sturucture computer Course','web course',3,3);
 
 INSERT INTO university.courses(course_number,title,description,credit_hours,teacher_id)
-VALUES('1106','Course 6','web course',3,103);
+VALUES('1106','Course 6','web course',3,1);
 
 
 
