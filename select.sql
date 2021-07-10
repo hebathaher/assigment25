@@ -37,3 +37,10 @@ FROM university.countries
  JOIN university.students
   ON  university.countries.id=university.students.country_id
   GROUP BY countries.name;
+  
+  
+  SELECT student_courses.student_id,count(*)
+FROM university.student_courses 
+ JOIN university.courses
+  ON  university.student_courses.course_id=university.courses.id
+  GROUP BY  student_courses.student_id;
